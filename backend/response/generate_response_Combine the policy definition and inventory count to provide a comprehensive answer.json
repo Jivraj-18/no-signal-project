@@ -1,0 +1,13 @@
+{
+    "natural_language_response": "Based on the company's inventory policy and current inventory data, I can provide the following comprehensive answer:\n\nThe company defines \"no-movers\" as items that have not been issued or used within the last 12 months. The policy outlines several important steps for managing no-mover inventory:\n\n1. Quarterly reviews of no-mover inventory are mandatory.\n2. No-mover items must be flagged for management review.\n3. The company should consider various options for no-mover items, including deep discount sales, liquidation, returning to suppliers, donation, recycling, or disposal.\n4. Continued retention of no-mover stock beyond the review period requires justification.\n5. A summary report of all no-mover inventory actions must be provided to senior management each quarter.\n\nRegarding the current inventory count, the data shows that there are currently 0 items classified as no-movers in the inventory.\n\nThis zero count could indicate one of several situations:\n1. The company has been effectively managing its inventory, successfully eliminating all no-mover items.\n2. A recent review and action on no-mover items has just been completed.\n3. The inventory tracking system may need to be checked to ensure it's correctly identifying and flagging no-mover items.\n\nGiven the importance placed on managing no-mover inventory in the policy, it would be advisable to verify the accuracy of this count and ensure that the inventory management system is correctly identifying items that haven't moved in the past 12 months.",
+    "nl_output": [
+        {
+            "step": "nl_to_sql",
+            "output": [
+                {
+                    "no_mover_count": 0
+                }
+            ]
+        }
+    ]
+}

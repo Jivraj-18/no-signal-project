@@ -1,0 +1,13 @@
+{
+    "natural_language_response": "Based on the information provided, I can summarize the 'no-mover' criteria and provide the count of current no-mover inventory items:\n\nNo-mover Criteria:\n1. Items that have not been issued or used within the last 12 months\n2. Must be identified during quarterly reviews\n3. Flagged for management review\n4. Require justification for continued retention\n5. Subject to actions like deep discount sales, liquidation, return to suppliers, donation, recycling, or disposal\n\nThe company policy requires a summary report of all no-mover inventory actions to be provided to senior management each quarter.\n\nCurrent No-mover Inventory Count:\nAccording to the data provided, there are currently 0 no-mover inventory items.",
+    "nl_output": [
+        {
+            "step": "nl_to_sql",
+            "output": [
+                {
+                    "no_mover_count": 0
+                }
+            ]
+        }
+    ]
+}

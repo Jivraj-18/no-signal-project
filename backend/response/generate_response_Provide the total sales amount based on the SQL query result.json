@@ -1,0 +1,13 @@
+{
+    "natural_language_response": "",
+    "nl_output": [
+        {
+            "step": "nl_to_sql",
+            "output": [
+                {
+                    "total_sales_amount": 36784735.01337984
+                }
+            ]
+        }
+    ]
+}

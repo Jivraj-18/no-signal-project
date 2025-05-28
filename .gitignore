@@ -1,0 +1,11 @@
+backend/unzipped_raw_data
+backend/unzipped_raw_data/*
+backend/zipped_raw_data
+backend/zipped_raw_data/*
+embeddings.json
+chunks.json
+processed_pdfs_docs
+processed_pdfs_docs/*
+__pycache__
+backend/.env
+backend/supply_data.db

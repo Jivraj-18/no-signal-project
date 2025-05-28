@@ -1,0 +1,1180 @@
+{
+    "natural_language_response": "Based on the provided information and data, I can offer the following analysis regarding the shipping modes for high-value international orders:\n\n1. Current practices:\n   - The data shows that for high-value orders (those with sales of $1,500 or more), a variety of shipping modes are being used across different countries.\n   - Standard Class is the most commonly used shipping mode for these high-value orders, followed by Second Class and First Class. Same Day shipping is used less frequently.\n\n2. Comparison with policy recommendations:\n   - Unfortunately, there is no specific information provided about policy recommendations for shipping modes for high-value international orders. The available policy information does not explicitly address this issue.\n\n3. Assessment of optimal shipping modes:\n   - Without clear policy guidelines, it's difficult to determine if the current practices are optimal. However, we can make some observations:\n     a. The frequent use of Standard Class for high-value orders may not be ideal, as these valuable shipments might benefit from faster or more secure shipping methods.\n     b. The use of First Class and Same Day shipping for some high-value orders suggests that there is recognition of the need for expedited shipping in some cases.\n     c. The variation in shipping modes across different countries indicates that there might not be a consistent global strategy for handling high-value shipments.\n\n4. Potential areas for improvement:\n   - Develop a clear policy for shipping high-value international orders, considering factors such as order value, destination country, and customer preferences.\n   - Consider increasing the use of faster shipping methods (e.g., First Class or Same Day) for high-value orders to ensure quicker delivery and potentially reduce risks.\n   - Implement a more consistent approach across different countries while allowing for necessary regional variations.\n   - Review the use of Standard Class shipping for high-value orders and assess if this provides adequate speed and security for valuable shipments.\n\nIn conclusion, while the current practices show some variation in shipping modes for high-value international orders, there's a lack of clear policy guidance to determine if these are optimal. Developing a more structured approach to shipping high-value orders internationally could potentially improve efficiency, security, and customer satisfaction.",
+    "nl_output": [
+        {
+            "step": "nl_to_sql",
+            "output": [
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1999.98999,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Italia",
+                    "Sales": 1999.98999,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Francia",
+                    "Sales": 1999.98999,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1999.98999,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1999.98999,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Espa\u00f1a",
+                    "Sales": 1999.98999,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1999.98999,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Francia",
+                    "Sales": 1999.98999,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Francia",
+                    "Sales": 1999.98999,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1999.98999,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Irlanda",
+                    "Sales": 1999.98999,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Italia",
+                    "Sales": 1999.98999,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Francia",
+                    "Sales": 1999.98999,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Francia",
+                    "Sales": 1999.98999,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Francia",
+                    "Sales": 1999.98999,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "PAYMENT_REVIEW"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Espa\u00f1a",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Pa\u00edses Bajos",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Austria",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Tailandia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "India",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "China",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Espa\u00f1a",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Australia",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "B\u00e9lgica",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Banglad\u00e9s",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Finlandia",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Espa\u00f1a",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Pa\u00edses Bajos",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Espa\u00f1a",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Same Day",
+                    "Order Country": "Irlanda",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Austria",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Vietnam",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "China",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Australia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Jap\u00f3n",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Tailandia",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "China",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Indonesia",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "China",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Corea del Sur",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Australia",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Indonesia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Espa\u00f1a",
+                    "Sales": 1500.0,
+                    "Order Status": "SUSPECTED_FRAUD"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Corea del Sur",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Afganist\u00e1n",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Vietnam",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Espa\u00f1a",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "PAYMENT_REVIEW"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Dinamarca",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "India",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "PAYMENT_REVIEW"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "B\u00e9lgica",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Vietnam",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Vietnam",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "India",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "China",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Same Day",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Same Day",
+                    "Order Country": "Irlanda",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Same Day",
+                    "Order Country": "China",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Australia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Same Day",
+                    "Order Country": "B\u00e9lgica",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Vietnam",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Indonesia",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Irlanda",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Portugal",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "China",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Same Day",
+                    "Order Country": "Irlanda",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Same Day",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Same Day",
+                    "Order Country": "Austria",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Same Day",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "B\u00e9lgica",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "B\u00e9lgica",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Pa\u00edses Bajos",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Irlanda",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Espa\u00f1a",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Vietnam",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Singapur",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Pa\u00edses Bajos",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Same Day",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Same Day",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Afganist\u00e1n",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Irlanda",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "CANCELED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Pa\u00edses Bajos",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Suecia",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Pa\u00edses Bajos",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Austria",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Espa\u00f1a",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Tailandia",
+                    "Sales": 1500.0,
+                    "Order Status": "CANCELED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "India",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Vietnam",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Indonesia",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Singapur",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Indonesia",
+                    "Sales": 1500.0,
+                    "Order Status": "SUSPECTED_FRAUD"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "China",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Pa\u00edses Bajos",
+                    "Sales": 1500.0,
+                    "Order Status": "PAYMENT_REVIEW"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Suiza",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Australia",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Filipinas",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Pa\u00edses Bajos",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Same Day",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Portugal",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Espa\u00f1a",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Alemania",
+                    "Sales": 1500.0,
+                    "Order Status": "SUSPECTED_FRAUD"
+                },
+                {
+                    "Shipping Mode": "Same Day",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "SUSPECTED_FRAUD"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Indonesia",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "China",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Suecia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "SUSPECTED_FRAUD"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "India",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Pa\u00edses Bajos",
+                    "Sales": 1500.0,
+                    "Order Status": "CANCELED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Indonesia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Vietnam",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "China",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "B\u00e9lgica",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING_PAYMENT"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Afganist\u00e1n",
+                    "Sales": 1500.0,
+                    "Order Status": "CANCELED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Tailandia",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Corea del Sur",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "China",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Jap\u00f3n",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Espa\u00f1a",
+                    "Sales": 1500.0,
+                    "Order Status": "ON_HOLD"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "B\u00e9lgica",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Second Class",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Suecia",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Austria",
+                    "Sales": 1500.0,
+                    "Order Status": "COMPLETE"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Italia",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Francia",
+                    "Sales": 1500.0,
+                    "Order Status": "SUSPECTED_FRAUD"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Australia",
+                    "Sales": 1500.0,
+                    "Order Status": "CANCELED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Afganist\u00e1n",
+                    "Sales": 1500.0,
+                    "Order Status": "PENDING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Tailandia",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Corea del Sur",
+                    "Sales": 1500.0,
+                    "Order Status": "PAYMENT_REVIEW"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Reino Unido",
+                    "Sales": 1500.0,
+                    "Order Status": "SUSPECTED_FRAUD"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Banglad\u00e9s",
+                    "Sales": 1500.0,
+                    "Order Status": "PROCESSING"
+                },
+                {
+                    "Shipping Mode": "First Class",
+                    "Order Country": "Espa\u00f1a",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Suecia",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Portugal",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "Irlanda",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                },
+                {
+                    "Shipping Mode": "Standard Class",
+                    "Order Country": "China",
+                    "Sales": 1500.0,
+                    "Order Status": "CLOSED"
+                }
+            ]
+        }
+    ]
+}

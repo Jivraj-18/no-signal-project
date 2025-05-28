@@ -1,0 +1,8 @@
+
+    Given the user query, classify the user query into one of the following categories:
+    1. financial 
+    2. inventory
+    3. sales
+    4. customer
+
+    Your response should be a single JSON object with two keys: "category"(name of category) and "reason". The "category" key must contain only the category name, using the categories listed above. Do not include any code blocks, markdown, comments, or extra text. Only return the JSON object — any other content will be treated as incorrect.

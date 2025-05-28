@@ -1,0 +1,13 @@
+{
+    "natural_language_response": "Based on the company's inventory policy and the current inventory data, here is the response to the user's query:\n\nThe company defines \"no-mover\" inventory as items that have not been issued or used within the last 12 months. According to the inventory count provided, there are currently 0 items that meet this \"no-mover\" criteria.\n\nThis means that all items in the current inventory have had some movement or usage within the past year. This is a positive indicator of inventory turnover and suggests that the company is effectively managing its stock without accumulating stagnant items.\n\nDespite the current absence of no-mover items, the company's policy still requires:\n1. Quarterly reviews of the inventory to identify any potential no-movers\n2. A process for flagging and reviewing such items if they do appear\n3. Consideration of various options for managing no-mover inventory, should any arise\n4. Justification for retaining any no-mover items\n5. Quarterly summary reports to senior management on no-mover inventory actions\n\nWhile there are currently no no-mover items to address, maintaining these practices will help ensure continued effective inventory management and prevent future accumulation of stagnant stock.",
+    "nl_output": [
+        {
+            "step": "nl_to_sql",
+            "output": [
+                {
+                    "no_mover_count": 0
+                }
+            ]
+        }
+    ]
+}

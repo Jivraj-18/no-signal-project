@@ -1,0 +1,170 @@
+{
+    "natural_language_response": "",
+    "nl_output": [
+        {
+            "step": "nl_to_sql",
+            "output": [
+                {
+                    "Category Name": "Accessories",
+                    "order_month": null,
+                    "total_sales": 75419.819325
+                },
+                {
+                    "Category Name": "As Seen on  TV!",
+                    "order_month": null,
+                    "total_sales": 20597.93996418
+                },
+                {
+                    "Category Name": "Baseball & Softball",
+                    "order_month": null,
+                    "total_sales": 60789.15168972
+                },
+                {
+                    "Category Name": "Basketball",
+                    "order_month": null,
+                    "total_sales": 19099.409421800003
+                },
+                {
+                    "Category Name": "Boxing & MMA",
+                    "order_month": null,
+                    "total_sales": 63986.99061564
+                },
+                {
+                    "Category Name": "Camping & Hiking",
+                    "order_month": null,
+                    "total_sales": 2631124.676481
+                },
+                {
+                    "Category Name": "Cardio Equipment",
+                    "order_month": null,
+                    "total_sales": 2326128.89818618
+                },
+                {
+                    "Category Name": "Cleats",
+                    "order_month": null,
+                    "total_sales": 2833269.22809572
+                },
+                {
+                    "Category Name": "Electronics",
+                    "order_month": null,
+                    "total_sales": 206849.25173891
+                },
+                {
+                    "Category Name": "Fishing",
+                    "order_month": null,
+                    "total_sales": 4420579.081572
+                },
+                {
+                    "Category Name": "Fitness Accessories",
+                    "order_month": null,
+                    "total_sales": 21205.07026396
+                },
+                {
+                    "Category Name": "Girls' Apparel",
+                    "order_month": null,
+                    "total_sales": 88244.66044746
+                },
+                {
+                    "Category Name": "Golf Apparel",
+                    "order_month": null,
+                    "total_sales": 28133.17009631
+                },
+                {
+                    "Category Name": "Golf Bags & Carts",
+                    "order_month": null,
+                    "total_sales": 10369.3903355
+                },
+                {
+                    "Category Name": "Golf Balls",
+                    "order_month": null,
+                    "total_sales": 42543.68946915
+                },
+                {
+                    "Category Name": "Golf Gloves",
+                    "order_month": null,
+                    "total_sales": 89201.530399384
+                },
+                {
+                    "Category Name": "Golf Shoes",
+                    "order_month": null,
+                    "total_sales": 82388.0
+                },
+                {
+                    "Category Name": "Hockey",
+                    "order_month": null,
+                    "total_sales": 31247.7297354
+                },
+                {
+                    "Category Name": "Hunting & Shooting",
+                    "order_month": null,
+                    "total_sales": 44672.48016813
+                },
+                {
+                    "Category Name": "Indoor/Outdoor Games",
+                    "order_month": null,
+                    "total_sales": 1801629.04373526
+                },
+                {
+                    "Category Name": "Kids' Golf Clubs",
+                    "order_month": null,
+                    "total_sales": 94597.64930233
+                },
+                {
+                    "Category Name": "Lacrosse",
+                    "order_month": null,
+                    "total_sales": 30193.49987015
+                },
+                {
+                    "Category Name": "Men's Footwear",
+                    "order_month": null,
+                    "total_sales": 1854437.4184629999
+                },
+                {
+                    "Category Name": "Men's Golf Clubs",
+                    "order_month": null,
+                    "total_sales": 47035.80051772
+                },
+                {
+                    "Category Name": "Shop By Sport",
+                    "order_month": null,
+                    "total_sales": 843075.79383228
+                },
+                {
+                    "Category Name": "Soccer",
+                    "order_month": null,
+                    "total_sales": 26477.0498373
+                },
+                {
+                    "Category Name": "Strength Training",
+                    "order_month": null,
+                    "total_sales": 36895.6196264
+                },
+                {
+                    "Category Name": "Tennis & Racquet",
+                    "order_month": null,
+                    "total_sales": 25824.26035384
+                },
+                {
+                    "Category Name": "Trade-In",
+                    "order_month": null,
+                    "total_sales": 48724.92004355
+                },
+                {
+                    "Category Name": "Water Sports",
+                    "order_month": null,
+                    "total_sales": 2005300.0843715
+                },
+                {
+                    "Category Name": "Women's Apparel",
+                    "order_month": null,
+                    "total_sales": 2008750.0
+                },
+                {
+                    "Category Name": "Women's Golf Clubs",
+                    "order_month": null,
+                    "total_sales": 44545.9701316
+                }
+            ]
+        }
+    ]
+}

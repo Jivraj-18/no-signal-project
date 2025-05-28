@@ -1,0 +1,20 @@
+{
+    "response": {
+        "id": "msg_bdrk_0134oE98mFT8TdQiXk8mrsMD",
+        "type": "message",
+        "role": "assistant",
+        "model": "claude-3-5-sonnet-20240620",
+        "content": [
+            {
+                "type": "text",
+                "text": "Based on the company's inventory policy documents, the definition and criteria for 'no-movers' are:\n\nDefinition: No-mover items are those that have not been issued or used within the last 12 months.\n\nCriteria:\n1. The item has had no movement (issuance or usage) for a period of 12 months or more.\n2. These items are flagged for management review during quarterly reviews of slow and no-mover inventory.\n3. No-mover items are considered for disposition through deep discount sales, liquidation, return to suppliers, donation, recycling, or disposal to free up space and reduce holding costs.\n4. Continued retention of no-mover stock beyond the review period requires justification.\n5. Actions taken on no-mover inventory must be reported to senior management in a quarterly summary report."
+            }
+        ],
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "usage": {
+            "input_tokens": 33053,
+            "output_tokens": 188
+        }
+    }
+}

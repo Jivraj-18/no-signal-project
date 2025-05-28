@@ -1,0 +1,9 @@
+{
+    "natural_language_response": "Based on the available information, I'm afraid I cannot provide a comprehensive report on hazardous materials stored in non-certified facilities. The provided data does not contain specific details about certified or non-certified facilities for hazardous material storage.\n\nHowever, I can share some relevant points from the available information:\n\n1. The DataCo Global Warehouse and Storage Policy mentions that hazardous materials storage areas must be segregated, have clear signage, and limited access.\n\n2. There is no specific definition or criteria provided for what constitutes \"hazardous materials\" in the available documents.\n\n3. The information does not include a list of certified facilities for storing hazardous materials.\n\nTo compile a thorough report on hazardous materials stored in non-certified facilities, additional information would be required, such as:\n\n- A clear definition of hazardous materials\n- Criteria for facility certification\n- A list of certified and non-certified facilities\n- Inventory data for hazardous materials at various storage locations\n\nWithout this information, it's not possible to present comprehensive findings on the topic. I recommend consulting additional sources or documents that specifically address hazardous material storage certifications and inventories to gather the necessary data for this task.",
+    "nl_output": [
+        {
+            "step": "nl_to_sql",
+            "output": []
+        }
+    ]
+}

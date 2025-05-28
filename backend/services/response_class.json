@@ -1,0 +1,20 @@
+{
+    "response": {
+        "id": "msg_bdrk_01JREtKMgra3D36vK1Ko2kXh",
+        "type": "message",
+        "role": "assistant",
+        "model": "claude-3-5-sonnet-20240620",
+        "content": [
+            {
+                "type": "text",
+                "text": "[\n  {\n    \"type\": \"rag\",\n    \"current_task\": \"Retrieve the HSE policy document detailing hazardous materials classification\"\n  },\n  {\n    \"type\": \"rag\",\n    \"current_task\": \"Extract the criteria for classifying products as hazardous materials from the HSE policy\"\n  },\n  {\n    \"type\": \"nl_to_sql\",\n    \"current_task\": \"Generate SQL query to identify products classified as hazardous materials based on the extracted criteria\"\n  },\n  {\n    \"type\": \"rag\",\n    \"current_task\": \"Retrieve information on facilities certified for storing hazardous materials\"\n  },\n  {\n    \"type\": \"nl_to_sql\",\n    \"current_task\": \"Generate SQL query to identify hazardous materials currently stored in non-certified facilities\"\n  },\n  {\n    \"type\": \"generate_response\",\n    \"current_task\": \"Compile and present the final list of hazardous materials stored in non-certified facilities\"\n  }\n]"
+            }
+        ],
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "usage": {
+            "input_tokens": 305,
+            "output_tokens": 251
+        }
+    }
+}

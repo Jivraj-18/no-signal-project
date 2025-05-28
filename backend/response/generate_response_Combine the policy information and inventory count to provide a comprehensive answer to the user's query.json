@@ -1,0 +1,13 @@
+{
+    "natural_language_response": "Based on the company's inventory policy and current inventory data:\n\nThe definition of 'no-movers' is items that have not been issued or used within the last 12 months. The criteria for classifying items as no-movers include:\n\n1. No movement (issuance or usage) for 12 months or more\n2. Flagged for management review during quarterly assessments\n3. Considered for disposition through various means (sales, liquidation, return, donation, etc.)\n4. Require justification for retention beyond the review period\n5. Actions on no-mover inventory must be reported to senior management quarterly\n\nAccording to the current inventory count, there are 0 items classified as no-movers in the inventory. This suggests that all items in the inventory have had some movement within the past 12 months, which is a positive indicator of inventory turnover and management.",
+    "nl_output": [
+        {
+            "step": "nl_to_sql",
+            "output": [
+                {
+                    "no_mover_count": 0
+                }
+            ]
+        }
+    ]
+}
