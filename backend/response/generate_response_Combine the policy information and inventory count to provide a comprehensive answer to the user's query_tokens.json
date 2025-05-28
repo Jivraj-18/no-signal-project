@@ -1,0 +1,27 @@
+[
+    {
+        "type": "user_classification",
+        "input_tokens": 148,
+        "output_tokens": 64
+    },
+    {
+        "type": "task_classification",
+        "input_tokens": 312,
+        "output_tokens": 145
+    },
+    {
+        "type": "rag_summarization",
+        "input_tokens": 33053,
+        "output_tokens": 144
+    },
+    {
+        "type": "sql_generation",
+        "input_tokens": 1188,
+        "output_tokens": 49
+    },
+    {
+        "type": "natural_language_response",
+        "input_tokens": 190,
+        "output_tokens": 163
+    }
+]

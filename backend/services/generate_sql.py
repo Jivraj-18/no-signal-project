@@ -103,7 +103,7 @@ class SQLGenerator:
         })
         # 
         try :
-            return json.loads(response['response']['content'][0]['text'])['sql_query']
+            return response
         except Exception as e:
             raise Exception(f"Error generating SQL: {response.get('error', e)}")
     def fetch_data(self, sql_query: str) -> pd.DataFrame:

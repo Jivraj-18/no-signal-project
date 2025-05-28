@@ -158,3 +158,4 @@ Error executing SQL query: Execution failed on sql 'SELECT COUNT(*) AS no_mover_
 Error executing SQL query: Execution failed on sql 'SELECT COUNT(*) AS no_mover_count FROM supply_data WHERE JULIANDAY('now') - JULIANDAY("order date (DateOrders)") > 365': no such table: supply_data
 Error executing SQL query: Execution failed on sql 'SELECT COUNT(*) AS no_mover_count FROM supply_data WHERE JULIANDAY('now') - JULIANDAY("order date (DateOrders)") >= 365 AND "Order Status" = 'COMPLETE'': no such table: supply_data
 Error executing SQL query: Execution failed on sql 'SELECT COUNT(*) AS no_mover_count FROM supply_data WHERE julianday('now') - julianday(MAX("order date (DateOrders)")) > 365': misuse of aggregate: MAX()
+Error executing SQL query: cannot access local variable 'sql_query' where it is not associated with a value

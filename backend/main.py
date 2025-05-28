@@ -142,10 +142,7 @@ async def process_question(
     question: str = Form(None),  # Make it optional
     ):
     print(question)
-    tokens = {
-        "input_tokens": 0,
-        "output_tokens": 0,
-    }
+    tokens = []
 # async def process_question(
 #     # request: Request,
 #     question: str #= Form(None),  # Make it optional
@@ -175,8 +172,15 @@ async def process_question(
     classify_user_query = Classify_User_query()
     with open("user_classification_prompt.txt") as f :
         user_classification_prompt = f.read()
-    user_type = json.loads((await classify_user_query.classify_user_query(question, user_classification_prompt))['response']['content'][0]['text'])['category']
-      
+    response = await classify_user_query.classify_user_query(question, user_classification_prompt)
+    tokens.append(
+        {
+            "type": "user_classification",
+            "input_tokens" : response['response']['usage']['input_tokens'],
+            "output_tokens" : response['response']['usage']['output_tokens']
+        }
+    )
+    user_type = json.loads(response['response']['content'][0]['text'])['category']
     # user_type = json.loads((await classify_user_query.classify_user_query(question, user_classification_prompt))['response']['content'][0]['text'])['category']
     print(user_type)
     print(request.session['type'])
@@ -191,7 +195,17 @@ async def process_question(
 
     output =  []
     # Run the async function
-    steps = json.loads((await task_classifier.classify_via_llm(user_query, classification_prompt))['response']['content'][0]['text'])
+    response = await task_classifier.classify_via_llm(user_query, classification_prompt)
+    tokens.append(
+        {
+            "type": "task_classification",
+            "input_tokens" : response['response']['usage']['input_tokens'],
+            "output_tokens" : response['response']['usage']['output_tokens']
+        }
+    )
+
+    steps = json.loads(response['response']['content'][0]['text'])
+    
     print(steps)
     for step in steps:
         if step['type'] == 'rag':
@@ -217,7 +231,16 @@ async def process_question(
             # store response to a file under response directory, file id should be current timestamp
             with open(f"response/{step['current_task']}_{int(pd.Timestamp.now().timestamp())}.json", "w") as f:
                 json.dump(similarities, f, indent=4)
-            rag_output = (await summarizer.classify_via_llm(user_query, "You will be provided with rag's output, your task it to summarize the output in a concise manner for the user query."))['response']['content'][0]['text']  
+            response = await summarizer.classify_via_llm(user_query, "You will be provided with rag's output, your task it to summarize the output in a concise manner for the user query.")
+            tokens.append(
+                {
+                    "type": "rag_summarization",
+                    "input_tokens" : response['response']['usage']['input_tokens'],
+                    "output_tokens" : response['response']['usage']['output_tokens']
+                }
+            )
+            rag_output = response['response']['content'][0]['text']
+            # rag_output = (await summarizer.classify_via_llm(user_query, "You will be provided with rag's output, your task it to summarize the output in a concise manner for the user query."))['response']['content'][0]['text']  
             
             # return {"rag_output": rag_output}
             output.append({
@@ -235,7 +258,15 @@ async def process_question(
             
             
             try :
-                sql_query = await sql_generator.generate_sql_via_llm(user_query, sql_generator.system_prompt)
+                response = await sql_generator.generate_sql_via_llm(user_query, sql_generator.system_prompt)
+                tokens.append(
+                    {
+                        "type": "sql_generation",
+                        "input_tokens" : response['response']['usage']['input_tokens'],
+                        "output_tokens" : response['response']['usage']['output_tokens']
+                    }
+                )
+                sql_query = json.loads(sql_query['response']['content'][0]['text'])['sql_query']
                 data = sql_generator.fetch_data(sql_query)
                 with open(f"response/{step['current_task']}_{int(pd.Timestamp.now().timestamp())}.json", "w") as f:
                     json.dump(data.to_dict(orient='records'), f, indent=4)
@@ -256,12 +287,23 @@ async def process_question(
             rag_output = [obj for obj in output if obj["step"] == "rag"]
             nl_output = [out for out in output if out["step"] == "nl_to_sql"]
             if rag_output:
-                natural_language_response = (await nl_response_generator.natural_language_response_generator(f"""Task : {step['current_task']} \n Relevant  Information : {output}  """, "generate natural language response from the given user query"))['response']['content'][0]['text']
+                response  = await nl_response_generator.natural_language_response_generator(f"""Task : {step['current_task']} \n Relevant  Information : {rag_output[0]['output']}  """, "generate natural language response from the given user query")
+                tokens.append(
+                    {
+                        "type": "natural_language_response",
+                        "input_tokens" : response['response']['usage']['input_tokens'],
+                        "output_tokens" : response['response']['usage']['output_tokens']
+                    }
+                )
+                natural_language_response = response['response']['content'][0]['text']
             else : 
                 natural_language_response = ''
             # write json object to a file {"natural_language_response": natural_language_response, "nl_output": nl_output}
             with open(f"response/{step['type']}_{step['current_task']}.json", "w") as f:
                 json.dump({"natural_language_response": natural_language_response, "nl_output": nl_output}, f, indent=4)
+            # write the tokens to a file 
+            with open(f"response/{step['type']}_{step['current_task']}_tokens.json", "w") as f:
+                json.dump(tokens, f, indent=4)
             return {"natural_language_response": natural_language_response, "nl_output": nl_output}
         else:
             step['task'] = "Unknown task type."
